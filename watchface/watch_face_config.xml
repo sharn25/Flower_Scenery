@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <TemplateWatch dpi="120">
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage offset_distance_y="0" filter_color="0" y="0" type="static" x="0" label="layer 8 - Background" align="DIGIT_ALIGN_CENTER_LEFT" data_type="DATA_BACKGROUND" res_dir_id="A009"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage offset_distance_y="0" filter_color="65535" y="67" type="static" x="43" label="layer 7 - Hour_High" number_of_digits="0" align="DIGIT_ALIGN_CENTER_CENTER" data_type="DATA_HOUR_HIGH" res_dir_id="A008"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage offset_distance_y="0" filter_color="65535" y="67" type="static" x="78" label="layer 6 - Hour_Low" number_of_digits="0" align="DIGIT_ALIGN_CENTER_CENTER" data_type="DATA_HOUR_LOW" res_dir_id="A007"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage offset_distance_y="0" filter_color="65535" y="115" type="static" x="43" label="layer 5 - Mintue_High" number_of_digits="0" align="DIGIT_ALIGN_CENTER_CENTER" data_type="DATA_MINITE_HIGH" res_dir_id="A006"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage offset_distance_y="0" filter_color="65535" y="115" type="static" x="78" label="layer 4 - MIntue_Low" number_of_digits="0" align="DIGIT_ALIGN_CENTER_CENTER" data_type="DATA_MINITE_LOW" res_dir_id="A005"/>
+        </Widget>
+        <Widget widget_type="MUTILLANGUAGE">
+            <MutilLanguage default_language="en" filter_color="65535" y="207" type="static" single_language_img_num="7" x="10" support_languages="en" label="layer 3 - Week" align="DIGIT_ALIGN_CENTER_LEFT" data_type="DATA_WEEK" res_dir_id="A004"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage offset_distance_y="0" filter_color="0" y="15" type="static" x="112" label="layer 2 - AM_PM" align="DIGIT_ALIGN_CENTER_RIGHT" data_type="DATA_AMPM" res_dir_id="A003"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget internal_position="DIGIT_ALIGN_CENTER_LEFT" offset_distance_y="0" mutil_widget_count="3" filter_color="0" y="220" type="static" x="10" data_type1="DATA_SEPAR" label="layer 1 - MultiWidget" data_type2="DATA_MONTH_EN" align="DIGIT_ALIGN_CENTER_LEFT" data_type="DATA_DATE" res_dir_id="A000"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget internal_position="DIGIT_ALIGN_CENTER_CENTER" offset_distance_y="0" mutil_widget_count="3" filter_color="0" y="220" type="static" x="10" data_type1="DATA_DATE" data_type2="DATA_MONTH_EN" align="DIGIT_ALIGN_CENTER_LEFT" data_type="DATA_SEPAR" res_dir_id="A001"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget internal_position="DIGIT_ALIGN_CENTER_RIGHT" offset_distance_y="0" mutil_widget_count="3" filter_color="0" y="220" type="static" x="10" data_type1="DATA_DATE" data_type2="DATA_SEPAR" align="DIGIT_ALIGN_CENTER_LEFT" data_type="DATA_MONTH_EN" res_dir_id="A002"/>
+        </Widget>
+    </TemplateWatch>
+</providers>
